@@ -1,0 +1,29 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "Fun app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramzaansari/Fun-App.git"
+  },
+  "author": "Ramza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramzaansari/Fun-App/issues"
+  },
+  "homepage": "https://github.com/ramzaansari/Fun-App#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
